@@ -9,6 +9,7 @@ To install:
 
 Other Stuff:
 * i wrote this in like an hour. there are probably bugs. Also there are some problems.
+* Some events are (incorrectly, i think) multi-day events (e.g. [this one](https://itp.nyu.edu/camp/2024/session/25) at the time of writing) - I don't correctly parse those yet. Sorry.
 * This doesn't parse zoom links
 * Locations are added to events pretty late, so this will often not capture the location of an event
 * The time formats for events on the site are not consistent so there might be bugs around guessing the time of an event, especially if it spans the AM-PM boundary
