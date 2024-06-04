@@ -10,7 +10,7 @@ A tampermonkey script that adds a button to add ITP Camp events to your google c
 ## Other stuff / disclaimer / i write bugs:
 * i wrote this in like an hour. there are probably bugs. Also there are some problems.
 * Some events are (incorrectly, i think) multi-day events (e.g. [this one](https://itp.nyu.edu/camp/2024/session/25) at the time of writing) - I don't correctly parse those yet. Sorry.
-* This doesn't parse zoom links
+* This doesn't parse add zoom links
 * Locations are added to events pretty late, so this will often not capture the location of an event
 * The time formats for events on the site are not consistent so there might be bugs around guessing the time of an event, especially if it spans the AM-PM boundary
 * i cannot emphasize enough how little testing I did (i clicked like 20 events and spot checked that they looked ok)
