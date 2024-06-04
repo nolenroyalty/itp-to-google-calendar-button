@@ -138,7 +138,7 @@
     }
 
     function getLocation() {
-        let loc = "Check ITP website for location - it wasn't there when you added the event :(";
+        let loc = document.URL;
         function returnWarnLoc(warn) {
             console.warn(`could not find loc! ${warn}`);
             return encodeURIComponent(loc);
