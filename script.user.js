@@ -5,6 +5,8 @@
 // @description  Add a link to the ITP Camp site that adds an event to your google calendar
 // @author       Nolen Royalty
 // @match        https://itp.nyu.edu/camp/2024/session/*
+// @updateURL    https://github.com/nolenroyalty/itp-to-google-calendar-button/raw/main/script.user.js
+// @downloadURL  https://github.com/nolenroyalty/itp-to-google-calendar-button/raw/main/script.user.js
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        GM_addStyle
 // @run-at       document-end
