@@ -1,13 +1,13 @@
 # itp-to-google-calendar-button
 A tampermonkey script that adds a button to add ITP Camp events to your google calendar.
 
-To install:
+## To install:
 * Install [TamperMonkey](https://www.tampermonkey.net/). TamperMonkey is a browser extension that lets you run custom javascript on webpages.
 * Open the TamperMonkey dashboard (click the extension icon, which is two circles at the bottom of a square, and select "dashboard")
 * Click on the "Utilities" tab
 * In the "import from URL" section, paste the following url: `https://github.com/nolenroyalty/itp-to-google-calendar-button/raw/main/script.user.js`
 
-Other Stuff:
+## Other stuff / disclaimer / i write bugs:
 * i wrote this in like an hour. there are probably bugs. Also there are some problems.
 * Some events are (incorrectly, i think) multi-day events (e.g. [this one](https://itp.nyu.edu/camp/2024/session/25) at the time of writing) - I don't correctly parse those yet. Sorry.
 * This doesn't parse zoom links
